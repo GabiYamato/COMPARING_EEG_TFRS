@@ -1,0 +1,51 @@
+# Python / Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook Checkpoints & Cache
+.ipynb_checkpoints
+*/.ipynb_checkpoints
+*.ipynb
+
+# Data / Datasets
+data/
+*.pkl
+*.h5
+*.mat
+*.npy
+*.npz
+
+# Model Checkpoints, Logs, and Metrics
+checkpoints/
+**/checkpoints/
+metrics/
+**/metrics/
+plots/
+**/plots/
+outputs/
+**/outputs/
+
+# CSV and Excel output reports
+*.csv
+*.xlsx
+*.xls
+global_summary.json
+
+# IDE / OS specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
